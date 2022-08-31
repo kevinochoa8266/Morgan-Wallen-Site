@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #fbfcf8;
+}
+
+html, body {
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url("headerBackground.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    
+    display: inline-block;
+    padding: .5em;
+    color: #fbfcf8;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align:center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    transition: color .5s;
+    color:#c5c6d0;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .2);
+    background-image: url("headerBackground.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.artist-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Rock Salt', cursive;
+    font-weight: normal;
+    color: #fbfcf8;
+}
+
+.artist-name-larger {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #fbfcf8;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.about-artist-image {
+    float: left;
+    height: 200px;
+    width: 287px;
+    margin: 15px;
+}
+.main-footer {
+    background-image: url("headerBackground.png");
+    background-size: cover;
+    color: #fbfcf8;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
